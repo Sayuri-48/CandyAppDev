@@ -16,6 +16,10 @@
 		21FA35C02AF1C163004156AC /* CandyAppDevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35BF2AF1C163004156AC /* CandyAppDevTests.swift */; };
 		21FA35CA2AF1C163004156AC /* CandyAppDevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35C92AF1C163004156AC /* CandyAppDevUITests.swift */; };
 		21FA35CC2AF1C163004156AC /* CandyAppDevUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35CB2AF1C163004156AC /* CandyAppDevUITestsLaunchTests.swift */; };
+		21FA35D92AF1C3CC004156AC /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35D82AF1C3CC004156AC /* secondViewController.swift */; };
+		21FA35DB2AF1C3DB004156AC /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35DA2AF1C3DB004156AC /* thirdViewController.swift */; };
+		21FA35DD2AF1C401004156AC /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35DC2AF1C401004156AC /* fourthViewController.swift */; };
+		21FA35DF2AF1C418004156AC /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35DE2AF1C418004156AC /* fifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		21FA35C52AF1C163004156AC /* CandyAppDevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyAppDevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FA35C92AF1C163004156AC /* CandyAppDevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAppDevUITests.swift; sourceTree = "<group>"; };
 		21FA35CB2AF1C163004156AC /* CandyAppDevUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAppDevUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21FA35D82AF1C3CC004156AC /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		21FA35DA2AF1C3DB004156AC /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		21FA35DC2AF1C401004156AC /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		21FA35DE2AF1C418004156AC /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				21FA35AA2AF1C162004156AC /* SceneDelegate.swift */,
 				21FA35AC2AF1C162004156AC /* ViewController.swift */,
 				21FA35AE2AF1C162004156AC /* Main.storyboard */,
+				21FA35DE2AF1C418004156AC /* fifthViewController.swift */,
+				21FA35DC2AF1C401004156AC /* fourthViewController.swift */,
+				21FA35DA2AF1C3DB004156AC /* thirdViewController.swift */,
+				21FA35D82AF1C3CC004156AC /* secondViewController.swift */,
 				21FA35B12AF1C163004156AC /* Assets.xcassets */,
 				21FA35B32AF1C163004156AC /* LaunchScreen.storyboard */,
 				21FA35B62AF1C163004156AC /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FA35D92AF1C3CC004156AC /* secondViewController.swift in Sources */,
 				21FA35AD2AF1C162004156AC /* ViewController.swift in Sources */,
+				21FA35DD2AF1C401004156AC /* fourthViewController.swift in Sources */,
+				21FA35DB2AF1C3DB004156AC /* thirdViewController.swift in Sources */,
 				21FA35A92AF1C162004156AC /* AppDelegate.swift in Sources */,
 				21FA35AB2AF1C162004156AC /* SceneDelegate.swift in Sources */,
+				21FA35DF2AF1C418004156AC /* fifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
