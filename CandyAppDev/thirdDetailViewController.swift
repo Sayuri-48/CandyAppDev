@@ -9,8 +9,16 @@ import UIKit
 
 class thirdDetailViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var imagePass: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let imageName = imagePass {
+                    imageView.image = UIImage(named: imageName)
+                }
 
         // Do any additional setup after loading the view.
     }

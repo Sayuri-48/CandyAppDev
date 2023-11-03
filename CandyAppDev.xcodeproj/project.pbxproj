@@ -22,6 +22,7 @@
 		21FA35DF2AF1C418004156AC /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35DE2AF1C418004156AC /* fifthViewController.swift */; };
 		21FA35E12AF45EC5004156AC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21FA35E02AF45EC5004156AC /* Property List.plist */; };
 		21FA35E32AF46581004156AC /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35E22AF46581004156AC /* secondDetailViewController.swift */; };
+		21FA35E52AF473D3004156AC /* thirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		21FA35DE2AF1C418004156AC /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		21FA35E02AF45EC5004156AC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		21FA35E22AF46581004156AC /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
+		21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				21FA35AA2AF1C162004156AC /* SceneDelegate.swift */,
 				21FA35AC2AF1C162004156AC /* ViewController.swift */,
 				21FA35AE2AF1C162004156AC /* Main.storyboard */,
+				21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */,
 				21FA35E22AF46581004156AC /* secondDetailViewController.swift */,
 				21FA35E02AF45EC5004156AC /* Property List.plist */,
 				21FA35DE2AF1C418004156AC /* fifthViewController.swift */,
@@ -283,6 +286,7 @@
 				21FA35DD2AF1C401004156AC /* fourthViewController.swift in Sources */,
 				21FA35DB2AF1C3DB004156AC /* thirdViewController.swift in Sources */,
 				21FA35A92AF1C162004156AC /* AppDelegate.swift in Sources */,
+				21FA35E52AF473D3004156AC /* thirdDetailViewController.swift in Sources */,
 				21FA35AB2AF1C162004156AC /* SceneDelegate.swift in Sources */,
 				21FA35DF2AF1C418004156AC /* fifthViewController.swift in Sources */,
 			);
