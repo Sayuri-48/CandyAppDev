@@ -46,11 +46,6 @@ class ViewController: UIViewController {
         
         featureText.text = "These classic REESE'S peanut butter candies in Halloween shapes will delight every candy-loving goblin and ghoul with otherworldly combinations of creamy peanut butter and smooth milk chocolate."
     }
-    
-
-
-    
-    
 }
 
 
