@@ -10,10 +10,9 @@ import UIKit
 class thirdViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var cat2List = ["Hershey's Cookies'n Crème", "Reese's Peanut Butter", "Hershey's Kisses", "Kit Kat"]
-        var reviewStars = ["★★★✩✩", "★★★★★", "★★★★✩", "★★★✩✩"]
+    var reviewStars = ["★★★★★", "★★★✩✩", "★★★★✩", "★★★★✩"]
         
-        var categoryTwoImagesData = [String]()
-    
+    var categoryTwoImagesData = [String]()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -56,5 +55,4 @@ class thirdViewController: UIViewController, UITableViewDataSource, UITableViewD
                     s1.imagePass = categoryTwoImagesData[imageIndex!]
                 }
             }
-
 }

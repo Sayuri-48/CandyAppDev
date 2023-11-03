@@ -23,6 +23,7 @@
 		21FA35E12AF45EC5004156AC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21FA35E02AF45EC5004156AC /* Property List.plist */; };
 		21FA35E32AF46581004156AC /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35E22AF46581004156AC /* secondDetailViewController.swift */; };
 		21FA35E52AF473D3004156AC /* thirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */; };
+		21FA35E72AF47890004156AC /* fourthDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35E62AF47890004156AC /* fourthDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		21FA35E02AF45EC5004156AC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		21FA35E22AF46581004156AC /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
 		21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdDetailViewController.swift; sourceTree = "<group>"; };
+		21FA35E62AF47890004156AC /* fourthDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				21FA35E02AF45EC5004156AC /* Property List.plist */,
 				21FA35DE2AF1C418004156AC /* fifthViewController.swift */,
 				21FA35DC2AF1C401004156AC /* fourthViewController.swift */,
+				21FA35E62AF47890004156AC /* fourthDetailViewController.swift */,
 				21FA35DA2AF1C3DB004156AC /* thirdViewController.swift */,
 				21FA35D82AF1C3CC004156AC /* secondViewController.swift */,
 				21FA35B12AF1C163004156AC /* Assets.xcassets */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FA35E72AF47890004156AC /* fourthDetailViewController.swift in Sources */,
 				21FA35D92AF1C3CC004156AC /* secondViewController.swift in Sources */,
 				21FA35AD2AF1C162004156AC /* ViewController.swift in Sources */,
 				21FA35E32AF46581004156AC /* secondDetailViewController.swift in Sources */,

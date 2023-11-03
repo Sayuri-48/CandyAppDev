@@ -14,7 +14,6 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
     
     var categoryOneImagesData = [String]()
     
-    
     @IBOutlet weak var tableView: UITableView!
     
     
@@ -35,8 +34,6 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.deselectRow(at: indexPath, animated: true)
     }
 
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -50,7 +47,6 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
         // Do any additional setup after loading the view.
     }
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 if segue.identifier == "mySegue"
                 {
@@ -59,5 +55,4 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
                     s1.imagePass = categoryOneImagesData[imageIndex!]
                 }
             }
-
 }
