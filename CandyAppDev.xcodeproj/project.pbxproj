@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214EB9402AFAF7A0009EAE3F /* firstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB93F2AFAF7A0009EAE3F /* firstDetailViewController.swift */; };
 		21FA35A92AF1C162004156AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35A82AF1C162004156AC /* AppDelegate.swift */; };
 		21FA35AB2AF1C162004156AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35AA2AF1C162004156AC /* SceneDelegate.swift */; };
 		21FA35AD2AF1C162004156AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA35AC2AF1C162004156AC /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214EB93F2AFAF7A0009EAE3F /* firstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstDetailViewController.swift; sourceTree = "<group>"; };
 		21FA35A52AF1C162004156AC /* CandyAppDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyAppDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FA35A82AF1C162004156AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FA35AA2AF1C162004156AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				21FA35AA2AF1C162004156AC /* SceneDelegate.swift */,
 				21FA35AC2AF1C162004156AC /* ViewController.swift */,
 				21FA35AE2AF1C162004156AC /* Main.storyboard */,
+				214EB93F2AFAF7A0009EAE3F /* firstDetailViewController.swift */,
 				21FA35E42AF473D3004156AC /* thirdDetailViewController.swift */,
 				21FA35E22AF46581004156AC /* secondDetailViewController.swift */,
 				21FA35E02AF45EC5004156AC /* Property List.plist */,
@@ -291,6 +294,7 @@
 				21FA35DB2AF1C3DB004156AC /* thirdViewController.swift in Sources */,
 				21FA35A92AF1C162004156AC /* AppDelegate.swift in Sources */,
 				21FA35E52AF473D3004156AC /* thirdDetailViewController.swift in Sources */,
+				214EB9402AFAF7A0009EAE3F /* firstDetailViewController.swift in Sources */,
 				21FA35AB2AF1C162004156AC /* SceneDelegate.swift in Sources */,
 				21FA35DF2AF1C418004156AC /* fifthViewController.swift in Sources */,
 			);

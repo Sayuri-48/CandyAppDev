@@ -15,10 +15,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var learnButton: UIButton!
     
+    /*
     @IBOutlet weak var featureLabel: UILabel!
     
     @IBOutlet weak var featureText: UITextView!
-    
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +32,14 @@ class ViewController: UIViewController {
         
         learnButton.setTitle("Learn More", for: UIControl.State.normal)
         
+        /*
         featureLabel.text = ""
         
         featureText.text = ""
+        */
     }
     
+    /*
     @IBAction func learnButtonPressed(_ sender: Any)
     {
         bcImage.isHidden = true
@@ -46,6 +50,5 @@ class ViewController: UIViewController {
         
         featureText.text = "These classic REESE'S peanut butter candies in Halloween shapes will delight every candy-loving goblin and ghoul with otherworldly combinations of creamy peanut butter and smooth milk chocolate."
     }
+    */
 }
-
-
